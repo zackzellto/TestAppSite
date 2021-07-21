@@ -1,0 +1,16 @@
+/*------------------------------ID Styling--------------------------*/
+
+#title{
+    background-color: aquamarine;
+}
+
+h1 {  font-family: "Montserrat-Black"; font-size: 3rem;  line-height: 1.5;  font-weight: 900;}
+
+body{
+    font-family: "Ubuntu";
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+

@@ -1,0 +1,307 @@
+
+/*--------------------------------------------------SELECTOR ELEMENTS------------------------------------------*/
+
+head{
+    background-color: rgb(0, 0, 0);
+}
+body{
+    background-color: #00000041;
+    text-align: center;
+    color: #181f5f;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+hr{
+    border-style: none;
+    border-color: #1085bb;           
+    border-top-style: dotted;       
+    border-width: .323rem;
+    width: 5%;
+    padding: 50px 0;
+    position: relative;
+    top: 60px;
+    
+}
+
+h1{
+    color: #181f5f;
+    margin: 0 auto;
+    position:relative;
+    top: 100px;
+    font-size: 5.625rem;    
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+    line-height: 0;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: 'Manrope', sans-serif; 
+    font-weight: bold;
+    padding: 10px;
+}
+
+h5{
+    font-size: 25%;
+    font-family: 'Press Start 2P', cursive; 
+}
+
+h3{
+    font-family: sans-serif;
+}
+
+a{
+    color: #1d0086;
+}
+p{
+    width: auto;
+    margin: auto;
+}
+/*-----------------------------------------------------CLASS ELEMENTS-------------------------------------------*/
+
+.topContainer{    
+    width: 100%;
+    height: 100%;    
+}
+
+.middle-container{
+    margin: auto;    
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottomCloud{
+    position:absolute;
+    top:200px;
+    left: 350px;
+}
+
+.topCloud{
+    position:absolute;
+    right: 600px;
+    top:50px;
+}
+
+.mountain{
+    position:-webkit-sticky;
+    top: 100px;
+}
+
+.aProgrammer{
+    font-weight: normal;
+    position: relative;
+    top: 85px;
+    font-size: 25px;
+    line-height: 1px;
+}
+
+.profilePicture{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    rotate:inherit;
+    
+}
+
+.hobbiesLink{
+    position:absolute;
+    top: 20px;
+    right: 200px;
+    text-decoration: none;
+}
+
+.aboutMeLink{
+    position:absolute;
+    top: 20px;
+    right: 100px;
+    text-decoration: none;
+}
+
+.projectsLink{
+    position:absolute;
+    top: 20px;
+    right: 290px;
+    text-decoration: none;
+}
+
+
+/*----------------------------------Twitter Button-------------------------------*/
+.twitterLogo{
+    height: 40px;
+    width: 40px;
+    bottom: 60px;
+    left: 20px;
+    position:fixed;
+}
+/*----------------------------------Gmail Button-------------------------------*/
+.gmailLogo{
+    height: 50px;
+    width: 50px;
+    bottom: 10px;
+    left: 20px;
+    position:fixed;
+}
+/*----------------------------------TikTok Button-------------------------------*/
+.tikTokLogo{
+    height: 40px;
+    width: 40px;
+    bottom: 110px;
+    left: 20px;
+    position:fixed;
+}
+/*----------------------------------Instagram Button-------------------------------*/
+.instagramLogo{
+    height: 60px;
+    width: 60px;
+    bottom: 150px;
+    left: 10px;
+    position:fixed;
+
+}
+/*----------------------------------Facebook Button-------------------------------*/
+.facebookLogo{
+    height: 38px;
+    width: 38px;
+    bottom: 210px;
+    left: 21px;
+    position:fixed;
+
+}
+/*----------------------------------LinkedIn Button-------------------------------*/
+.linkedInLogo{
+    height: 50px;
+    width: 50px;
+    bottom: 252px;
+    left: 15px;
+    position:fixed;
+}
+/*----------------------------------YouTube Button-------------------------------*/
+.youTubeLogo{
+    height: 50px;
+    width: 50px;
+    bottom: 10px;
+    left: 15px;
+    position:fixed;
+}
+/*----------------------------------Contact Me Button-------------------------------*/
+.contactMeButton {
+    background: #25566E;
+    background-image: -webkit-linear-gradient(top, #25566E, #1E62D0);
+    background-image: -moz-linear-gradient(top, #25566E, #1E62D0);
+    background-image: -ms-linear-gradient(top, #25566E, #1E62D0);
+    background-image: -o-linear-gradient(top, #25566E, #1E62D0);
+    background-image: -webkit-gradient(to bottom, #25566E, #1E62D0);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    height: 30px;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: Verdana;
+    width: 150px;
+    font-size: 16px;
+    font-weight: 700;
+    
+    -webkit-box-shadow: 1px 1px 12px 1px #3B5998;
+    -moz-box-shadow: 1px 1px 12px 1px #3B5998;
+    box-shadow: 1px 1px 12px 1px #3B5998;
+    text-shadow: 3px 0 20px #FFFFFF;
+    border: solid #0E76A8 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ 
+ 
+ }
+ 
+ .contactMeButton:hover {
+    border: solid #337FED 1px;
+    background: #0E76A8;
+    background-image: -webkit-linear-gradient(top, #0E76A8, #3D94F6);
+    background-image: -moz-linear-gradient(top, #0E76A8, #3D94F6);
+    background-image: -ms-linear-gradient(top, #0E76A8, #3D94F6);
+    background-image: -o-linear-gradient(top, #0E76A8, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #0E76A8, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .contactMe{
+     position:relative;
+     bottom: -15px;
+     
+ }
+.pro{
+    color: #181f5f;
+}
+
+.bottom-container{
+    size: 81px;
+}
+
+.cityBackground{
+    background-size:cover;
+}
+
+
+
+
+
+
+
+/*--------------------------------------------------ID ELEMENTS-----------------------------------------------*/
+
+
+/*--------------------------------------------------SKILL-ROW ELEMENTS-----------------------------------------------*/
+
+.skills{
+    line-height: 2;
+    margin: auto;
+    position: relative;
+    top: 50px;
+    
+}
+
+.skillSoftwareEngineer{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skillIT{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.skillCustomerObsessed{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;    
+}
+
+/*--------------------------------------------------SKILL-ROW IMAGE ELEMENTS-----------------------------------------------*/
+
+.softwareEngineerClipArt{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+    
+}
+
+.computerClipArt{
+    width: 20%;
+    float: left;
+    margin-right: 30px;
+}
+
+.customerFocus{
+    width: 20%;
+    float: right;
+    margin-left: 30px;
+    
+}
+
